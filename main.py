@@ -13,7 +13,8 @@ import seaborn as sns
 from pathlib import Path
 import os
 import cyrtranslit
-
+import webbrowser
+from kivy.uix.stacklayout import StackLayout
 
 Builder.load_file('ruutu.kv')
 
@@ -205,6 +206,9 @@ class Yksmon(Screen):
     
 
 class Nominatiivi(Screen):
+
+    def kielioppisivu(self):
+        webbrowser.open('https://sites.google.com/d/12Us-AzKLohqq2L8JkCMtlI_wkinKsDBa/p/1-D_GDm98TjY-2OC77JkuBJg0FRKrc1Hy/edit') 
     
     def kysy(self):
         with open('nomkys.txt','r',encoding='utf8') as file:
