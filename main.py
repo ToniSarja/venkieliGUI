@@ -1626,6 +1626,10 @@ class Tilastot(Screen):
         
         sns.catplot(y='sija', hue='pisteet',kind="count", data=df1)
         plt.savefig('tilasto.pdf')
+
+        path = 'tilasto.pdf'
+
+        os.system(path)
     
 
     
