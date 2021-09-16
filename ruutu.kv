@@ -1938,18 +1938,22 @@
         Label:
             id: teksti
             text: ""
-        Label:
-            id: oikeatsub
-            text: ''
+
 
 <Tilastot>:
     GridLayout:
         cols:1
         GridLayout:
-            cols:1
+            cols:1   
             Button:
                 text: 'Edistyminen'
                 on_press: root.pistenappi()
+            Button:
+                text: 'Takaisin valikkoon'
+                on_press: 
+                    root.back()
+                    root.manager.transition.direction = 'right'
+                                
                 
 
 

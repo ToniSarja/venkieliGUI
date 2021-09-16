@@ -1616,6 +1616,10 @@ class Tilastot(Screen):
     def osio(self):
         self.manager.current = 'tilasto'
 
+    def back(self):
+        self.manager.current = "osiot"
+
+
     def pistenappi(self):
         pisteet = pd.read_csv('oikein.csv')
 
