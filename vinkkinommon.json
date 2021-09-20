@@ -45,6 +45,6 @@
     "плечы": {"vinkki":"Sana saa и-päätteen monikossa"},
     "вечери": {"vinkki":"Sana saa а-päätteen monikossa"},
     "вечеры": {"vinkki":"Sana saa а-päätteen monikossa"},
-    "сыны": {"vinkki":"Sanan taivutusvartalo monikossa on сыновь. Monikon pääte on -я"},
-    "сыни": {"vinkki":"Sanan taivutusvartalo monikossa on сыновь. Monikon pääte on -я"}
+    "сыны": {"vinkki":"Sanan taivutusvartalo monikossa on сынов. Monikon pääte on -я. Huomaa pehmeä merkki"},
+    "сыни": {"vinkki":"Sanan taivutusvartalo monikossa on сынов. Monikon pääte on -я. Huomaa pehmeä merkki"}
 }
